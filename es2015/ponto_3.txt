@@ -1,0 +1,29 @@
+<?php date('d') ?>
+
+JavaScript
+
+O insertAdjacentElement = método da Elementinterface insere um determinado nó de elemento em uma determinada posição em relação ao elemento em que é invocado.
+
+<!-- beforebegin -->
+<p>
+  <!-- afterbegin -->
+  foo
+  <!-- beforeend -->
+</p>
+<!-- afterend -->
+
+
+Eventos do mouse
+--------------------------------------------------------------------------------------------------------
+onmouseenter = ocorre quando o ponteiro do mouse é movido para um elemento.
+onmousedown = ocorre quando um usuário pressiona o botão do mouse sobre um elemento.
+onmouseup = ocorre quando um usuário libera um botão do mouse sobre um elemento.
+onmouseout = ocorre quando o ponteiro do mouse é movido para fora de um elemento ou de um de seus filhos.
+onmouseleave = ocorre quando o ponteiro do mouse é movido para fora de um elemento.
+
+
+Eventos do teclado
+
+
+Um pseudo-elemento CSS é uma palavra-chave adicionada a um seletor que permite que você estilize uma parte específica do elemento selecionado.
+Uma pseudo-classe CSS é uma palavra-chave adicionada a seletores que especifica um estado especial do elemento selecionado.

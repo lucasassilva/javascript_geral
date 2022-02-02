@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+
+    <script src="https://cdn.jsdelivr.net/npm/@babel/standalone@7.14.7/babel.min.js"></script>
+
+    <script type="text/babel">
+
+      // Ecmascript 2021
+      
+      class Person{
+
+        #name
+        #age
+
+        constructor(name, age) {
+          this.#name = name
+          this.#age = age
+        }
+
+        getName(){
+          return this.#name
+        }
+
+        setName(name){
+          this.#name = name
+        }
+
+        getAge(){
+          return this.#age
+        }
+
+        setAge(age){
+          this.#age = age
+        }
+
+      }
+
+      const person = new Person('Dagoberto', 25)
+      console.log(person.getName())
+      person.setName('Lucas')
+      console.log(person.getName())
+      console.log(person.name) // undefined
+      console.log(person.age) // undefined
+
+
+    </script>
+    
+  </head>
+  <body>
+    <div id="output"></div>
+  </body>
+</html>

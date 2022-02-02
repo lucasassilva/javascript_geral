@@ -1,0 +1,1 @@
+"use strict";var idade=20;console.log(idade);

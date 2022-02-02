@@ -1,0 +1,19 @@
+{
+  "products": [
+    {
+      "name": "Aquario",
+      "price": "20.50",
+      "id": 3
+    },
+    {
+      "name": "Vassoura",
+      "price": "20.00",
+      "id": 4
+    },
+    {
+      "name": "Dymax Reator De Nitrato Xd-900 1200L",
+      "price": "704.55",
+      "id": 5
+    }
+  ]
+}

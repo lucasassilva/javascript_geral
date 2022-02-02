@@ -1,0 +1,20 @@
+<%- include("partials/header") %>
+<body>
+    <%- include("partials/navbar") %>
+    <br />
+    <div class="container">
+    <% posts.forEach(post => { %>
+      <div class="card-header bg-secondary text-white">
+            <h4><%= post.titulo %></h4>
+        </div>
+        <div class="card-body">
+            <h5><%= post.descricao %></h6>
+        </div>
+        <div class="card-footer">
+            Post publicado em <%= post.created_at.getFullYear() %>
+        </div>
+        <br />
+     <% }) %>
+    </div>
+</body>
+</html>

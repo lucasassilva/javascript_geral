@@ -1,0 +1,16 @@
+{
+  "name": "qunit",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Lucas Alves",
+  "license": "MIT",
+  "scripts": {
+    "test": "qunit"
+  },
+  "devDependencies": {
+    "qunit": "^2.17.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

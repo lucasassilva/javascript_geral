@@ -1,0 +1,14 @@
+{
+  "products": [
+    {
+      "name": "Vassoura",
+      "price": "10.50",
+      "id": 1
+    },
+    {
+      "name": "Aquario",
+      "price": "89.90",
+      "id": 2
+    }
+  ]
+}

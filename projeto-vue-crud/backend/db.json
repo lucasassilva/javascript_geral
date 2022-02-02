@@ -1,0 +1,28 @@
+{
+  "cars": [
+    {
+      "id": 2,
+      "name": "Prisma",
+      "brand": "Chevrolet",
+      "price": "20.000"
+    },
+    {
+      "id": 3,
+      "name": "Chavette",
+      "brand": "Chevrolet",
+      "price": "25.000"
+    },
+    {
+      "name": "Mustang",
+      "brand": "Ford",
+      "price": "50.000",
+      "id": 4
+    },
+    {
+      "name": "Gol",
+      "brand": "Volkswagen",
+      "price": "65.000",
+      "id": 5
+    }
+  ]
+}

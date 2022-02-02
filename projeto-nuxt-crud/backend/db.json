@@ -1,0 +1,19 @@
+{
+  "toys": [
+    {
+      "name": "Robô de Brinquedo com Movimento Tec Toys Max Dance - Emite Som Polibrinq",
+      "price": "89.90",
+      "id": 1
+    },
+    {
+      "name": "Carrinho de Controle Remoto Spider Man Web Tangle - 3 Funções Candide",
+      "price": "82.90",
+      "id": 2
+    },
+    {
+      "name": " Cama Elástica Pula Pula 3,05 M Infantil Colorida",
+      "price": "1390.95",
+      "id": 3
+    }
+  ]
+}

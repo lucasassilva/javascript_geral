@@ -1,0 +1,20 @@
+{
+  "name": "hapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Lucas Alves",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon ./server.js"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^20.2.1",
+    "@hapi/inert": "^6.0.4",
+    "@hapi/scooter": "^6.0.1",
+    "@hapi/vision": "^6.1.0",
+    "blankie": "^5.0.0",
+    "ejs": "^3.1.6",
+    "hapi-bodyparser": "^2.1.2",
+    "hapi-server-session": "^5.1.2"
+  }
+}

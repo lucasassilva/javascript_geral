@@ -1,0 +1,36 @@
+{
+  "name": "browserify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "dev": "node browserify.js"
+  },
+  "keywords": [],
+  "author": "Lucas Alves",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "babelify": "^10.0.0",
+    "browserify": "^17.0.0",
+    "browserify-css": "^0.15.0",
+    "chokidar": "^3.5.2",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "fs-extra": "^10.0.0",
+    "imagemin": "7.0.1",
+    "imagemin-cli": "7.0.0",
+    "imagemin-giflossy": "5.1.10",
+    "imagemin-pngquant": "9.0.2",
+    "imagemin-svgo": "9.0.0",
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.13",
+    "prettier": "^1.18.2",
+    "uglifyify": "^5.0.2",
+    "watchify": "^4.0.0"
+  }
+}

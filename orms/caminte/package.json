@@ -1,0 +1,15 @@
+{
+  "name": "caminte",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Lucas Alves",
+  "license": "MIT",
+  "dependencies": {
+    "caminte": "^0.4.1",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "knex": "^0.95.14",
+    "mysql": "^2.18.1",
+    "node-crypt": "^2.0.0"
+  }
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waterline</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+
+    <h2>Lista de usuários</h2>
+
+    <ul class="usuarios">
+        <% users.forEach(user => { %>
+            <li><%= user.name %></li>
+        <% }) %>
+    </ul>
+
+    <br />
+    
+    <form action="/" method="post">
+        <label for="user">Nome:</label>
+        <input type="text" name="user" id="user" autocomplete="off" />
+        <button type="submit">Cadastrar</button>
+    </form>
+
+    
+</body>
+</html>

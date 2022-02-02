@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <link rel="stylesheet" href="public/css/bulma.min.css">
+</head>
+<body>
+    <div class="container">
+        <h2 class="mt-2 has-text-centered">Tabela convertida do Excel</h2>
+        <table class="table is-striped mx-auto">
+            <thead class="has-background-black">
+                <% header.forEach(col => { %>
+                    <th class="has-text-white"> <%= col %> </th>
+                <% }); %>
+            </thead>
+            <tbody>
+                <% rows.forEach(row => { %>
+                    <tr>
+                        <% row.forEach(element => { %>
+                            <td> <%= element %> </td>
+                        <% }); %>
+                    </tr>
+                <% }); %>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

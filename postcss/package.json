@@ -1,0 +1,22 @@
+{
+  "name": "postcss",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Lucas Alves",
+  "scripts": {
+    "start": "nodemon server",
+    "postcss": "node ./src/index"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "liquidjs": "^9.28.5",
+    "node-watch": "^0.7.2",
+    "postcss": "^8.3.11",
+    "postcss-color-function": "^4.1.0",
+    "postcss-minify": "^1.1.0",
+    "postcss-mixins": "^8.1.0",
+    "postcss-nested": "^5.0.6",
+    "postcss-simple-vars": "^6.0.3"
+  }
+}

@@ -1,0 +1,22 @@
+body {
+    background-color: white;
+}
+
+ul, li {
+    font-size: 20px;
+    color: black;
+}
+
+h2 {
+    font-size: 32px;
+    color: black;
+}
+
+label {
+    color: black;
+    font-size: 17px;
+}
+
+input {
+    outline: none;
+}

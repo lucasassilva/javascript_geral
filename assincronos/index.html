@@ -1,0 +1,43 @@
+<div data-usuario></div>
+<div data-email></div>
+
+<button onclick="recuperarUsuario()">Recuperar Usuários</button> <br /><br />
+<button onclick="recuperarEmail()">Recuperar E-mails</button> <br /><br />
+
+<script>
+
+const url = 'https://jsonplaceholder.typicode.com/users';
+
+function recuperarUsuario() {
+	const http = new XMLHttpRequest();
+	const div = document.querySelector('[data-usuario]')
+	
+	http.open('GET', url);
+	http.send();
+	
+	http.onreadystatechange = async function () {
+        if(http.readyState === XMLHttpRequest.DONE && http.status === 200) {
+			const usersJSON = await JSON.parse(http.responseText);
+			const allUsernames = await usersJSON.map((u) => u.username + '<br />').join('');
+			div.innerHTML = allUsernames;
+        }
+    }
+		
+	http.onerror = function() {
+		console.err('Erro na conexão ...')
+	}
+}
+
+async function recuperarEmail() {
+	const div = document.querySelector('[data-email]')
+	const users = await fetch(url);
+	const usersJSON = await users.json()
+	const allEmails = await usersJSON.map((u) => u.email + '<br />').join('');
+	div.innerHTML = allEmails;
+}
+
+
+
+
+
+</script>

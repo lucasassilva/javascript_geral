@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Rodrigo",
+      "lastName": "Silva",
+      "age": 20
+    },
+    {
+      "id": 2,
+      "firstName": "Gabriel",
+      "lastName": "Oliveira",
+      "age": 29
+    },
+    {
+      "id": 3,
+      "firstName": "Breno",
+      "lastName": "Rodrigues",
+      "age": 30
+    },
+    {
+      "id": 4,
+      "firstName": "Hiago",
+      "lastName": "Fernandes",
+      "age": 41
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "mysql",
+  "host": "localhost",
+  "port": 3306,
+  "username": "root",
+  "password": "Rlxrvt1241x@",
+  "database": "db_typeorm",
+  "entities": ["src/app/models/*.ts"],
+  "migrations": ["./src/database/migrations/*.ts"],
+  "seeds": ["./src/database/seeds/*.ts"],
+  "cli": {
+    "entitiesDir": "src/app/models",
+    "migrationsDir": "src/database/migrations"
+  },
+  "logging": true,
+  "synchronize": true
+}

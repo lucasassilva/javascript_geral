@@ -1,0 +1,1 @@
+"use strict";var nome="Lucas";console.log(nome);

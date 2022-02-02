@@ -1,0 +1,4 @@
+Abstração - Entidadade, Identidade, Caracteristicas, Ações
+Encapsulamento - Seguro Reutilizavel (Promove a segurança com acesso direto a variaveis da classe)
+Herança - Reutilização de variaveis e metodos da classe ( Reutilizavel manutenção)
+Polimorfismo - Reutilizavel sobrescrita de métodos da classe 

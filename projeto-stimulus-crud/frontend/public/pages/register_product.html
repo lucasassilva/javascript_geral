@@ -1,0 +1,23 @@
+<div class="card">
+
+    <div class="card-body">
+
+        <form data-controller="product">
+            <div class="form-group">
+                <label for="name">Nome: </label>
+                <input type="text" class="form-control" id="name" name="name" autocomplete="off"
+                       data-product-target="name" />
+            </div>
+            <div class="form-group">
+                <label for="price">Preço: </label>
+                <input type="number" class="form-control" id="price" name="price" autocomplete="off"
+                       data-product-target="price" />
+            </div>
+
+            <button type="button" data-action="product#create" class="btn btn-success mt-2">Cadastrar</button>
+
+        </form>
+
+    </div>
+
+</div>

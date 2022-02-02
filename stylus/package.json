@@ -1,0 +1,13 @@
+{
+  "name": "stylus",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Lucas Alves",
+  "license": "MIT",
+  "dependencies": {
+    "node-watch": "^0.7.2",
+    "stylus": "^0.55.0"
+  }
+}
+

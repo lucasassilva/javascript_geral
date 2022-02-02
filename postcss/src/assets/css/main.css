@@ -1,0 +1,12 @@
+$blue: color(orange a(50%));
+$white: #fff;
+
+body {
+    background-color: $blue;
+}
+
+.container {
+    & h1 {
+        color: $white;
+    }
+}

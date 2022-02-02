@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+
+    <script src="https://cdn.jsdelivr.net/npm/@babel/standalone@7.14.7/babel.min.js"></script>
+
+    <script type="text/babel">
+
+      // Ecmascript 2021
+
+      class Person{
+        
+        #name
+        #age
+        
+        constructor(name, age) {
+          this.#name = name
+          this.#age = age
+        }
+
+        get name(){
+          return this.#name
+        }
+
+        get age(){
+          return this.#age
+        }
+
+        set name(name){
+          this.#name = name
+        }
+
+        set age(age){
+          this.#age = age
+        }
+
+        #showType(){
+          console.log('Isto é um tipo')
+        }
+
+        showHello(){
+          console.log('Olá Mundo')
+        }
+
+        showAll(){
+          this.#showType()
+          this.showHello()
+        }
+      }
+
+      const person = new Person('Lucas', 19)
+      console.log(person.name)
+      console.log(person.age)
+      person.showAll()
+
+
+    </script>
+    
+  </head>
+  <body>
+    <div id="output"></div>
+  </body>
+</html>

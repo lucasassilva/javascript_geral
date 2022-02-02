@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Node JS - Validação</title>
+</head>
+<body>
+    <form action="/form" method="post">
+        <input type="text" name="usuario" id="usuario" placeholder="usuario" value="{{ usuario }}"><br />
+        {% if errors[0].usuario.msg != undefined %}
+            <span>{{ errors[0].usuario.msg }}</span><br />
+        {% endif %}
+        <input type="password" name="senha" id="senha" placeholder="senha" value="{{ senha }}"><br />
+        {% if errors[0].senha.msg != undefined %}
+            <span>{{ errors[0].senha.msg }}</span><br />
+        {% endif %}
+        <input type="password" name="confirmar_senha" id="confirmar_senha" placeholder="confirmar senha" 
+        value="{{ confirmar_senha }}"><br />
+        {% if errors[0].confirmar_senha.msg != undefined %}
+            <span>{{ errors[0].confirmar_senha.msg }}</span><br />
+        {% endif %}
+        <button type="submit">Entrar</button>
+    </form>
+</body>
+</html>

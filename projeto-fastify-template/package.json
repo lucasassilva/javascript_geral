@@ -1,0 +1,21 @@
+{
+  "name": "fastify",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Lucas Alves",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon server"
+  },
+  "dependencies": {
+    "@mgcrea/fastify-session": "^0.14.2",
+    "ejs": "^3.1.6",
+    "fastify": "^3.24.0",
+    "fastify-cookie": "^5.3.2",
+    "fastify-csrf": "^3.1.0",
+    "fastify-formbody": "^5.2.0",
+    "fastify-helmet": "^5.3.2",
+    "fastify-static": "^4.5.0",
+    "point-of-view": "^4.15.2"
+  }
+}

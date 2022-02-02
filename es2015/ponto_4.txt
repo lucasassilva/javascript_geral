@@ -1,0 +1,52 @@
+// const animal = {
+//     cor: '',
+//     tamanho: null,
+//     peso: null,
+//     dormir: function () {
+//         console.log('Dormir')
+//     }
+// }
+
+// const cachorro = {
+//     orelhas: 'Grandes e caidas',
+//     correr: function () {
+//         console.log('Correr')
+//     }, 
+//     rosnar: function () {
+//         console.log('Rosnar')
+//     }
+// }
+
+// const passaro = {
+//     bico: 'Curto',
+//     voar: function () {
+//         console.log('Voar')
+//     }
+// }
+
+// const papagaio = {
+//     sabeFalar: true,
+//     falar: function () {
+//         console.log('Falar')
+//     }
+// }
+
+// Object.setPrototypeOf(passaro, animal)
+// Object.setPrototypeOf(cachorro, animal)
+// Object.setPrototypeOf(papagaio, passaro)
+
+
+// passaro.dormir()
+// passaro.peso = 20.0
+// console.log(passaro.peso)
+// passaro.cor = 'Azul'
+// console.log(passaro.cor)
+
+
+Objeto é criado ele possui automaticamente, uma propriedade que referencia um outro objeto, esse outro objeto é chamado de prototype
+todo objeto de javascript herda propriedades e metodos do seu prototype ascedente
+ 
+
+A referência __proto__a funciona em cada object para se referir a sua propriedade [[Prototype]].
+prototype é um objeto criado automaticamente como uma propriedade especial de um function, que é usado para armazenar as propriedades (incluindo métodos) de um objeto de função.
+

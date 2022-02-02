@@ -1,0 +1,12 @@
+2.       1.     0   = 2.1.0
+major   minor   patch/fix
+
+major = é mudada completamente o funcionamento da lib
+minor = é mudada quando é acrescentado um recurso dentro da lib
+patch = é mudada quando é resolvido algum bug dentro da lib
+
+^ = posso atualizar tanto minor/patch // ao realizar npm update ele irá verificar se há alguma atualização no(minor e patch)
+~ = posso atualizadar somente o patch // ao realizar npm update ele irá verificar se há alguma atualização no(patch)
+
+
+

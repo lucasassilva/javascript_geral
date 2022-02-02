@@ -1,0 +1,10 @@
+{
+  "dev": {
+    "host": "localhost",
+    "user": "root",
+    "password" : "Rlxrvt1241x@",
+    "database": "db_waterline",
+    "driver": "mysql",
+    "multipleStatements": true
+  }
+}

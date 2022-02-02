@@ -1,0 +1,25 @@
+[
+    { 
+        "nome": "Rodrigo", 
+        "curso": "Formação Flutter", 
+        "categoria": "Flutter"
+    },
+    
+    { 
+        "nome": "Bruno", 
+        "curso": "Formação Angular", 
+        "categoria": "Angular" 
+    },
+
+    { 
+        "nome": "Diogo", 
+        "curso": "Formação Python", 
+        "categoria": "Python"
+    }, 
+
+    { 
+        "nome": "Carlos",
+        "curso": "Formação Ruby", 
+        "categoria": "Ruby"
+    }
+]

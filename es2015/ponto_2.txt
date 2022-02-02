@@ -1,0 +1,11 @@
+const alunos = [{
+   nome: 'Lucas',
+   idade: 19,
+},
+{
+   nome: 'Pedro',
+   idade: 16,
+}]
+
+console.log(alunos[0].nome)
+console.log(alunos[0].idade)

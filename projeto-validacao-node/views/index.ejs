@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Node JS - Validação</title>
+</head>
+<body>
+    <form action="/form" method="post">
+        <input type="email" name="email" placeholder="email" value="<%= email %>"><br />
+        <% if(emailError != "") { %>
+            <span><%= emailError %></span><br />
+        <% } %>
+        <input type="text" name="nome" placeholder="nome" value="<%= nome %>"><br />
+        <% if(nomeError != "") { %>
+            <span><%= nomeError %></span><br />
+        <% } %>
+        <input type="number" name="pontos" id="pontos" placeholder="pontos" value="<%= pontos %>"><br />
+        <% if(pontosError != "") { %>
+            <span><%= pontosError %></span><br />
+        <% } %>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>

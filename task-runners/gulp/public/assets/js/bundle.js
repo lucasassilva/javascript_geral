@@ -1,0 +1,1 @@
+"use strict";function teste(){console.log("Hello World")}teste();

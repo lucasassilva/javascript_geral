@@ -1,0 +1,135 @@
+let person = {
+	name: 'Lucas',
+	age: 20
+}
+person.address = 'Rua Avenida Brazil'
+console.log(person)
+Object.preventExtensions(person)
+
+console.log(Object.isExtensible(person))
+
+person.address = 'Rua Eduard Leking'
+console.log(person)
+
+
+let product = {
+	name: 'Strawberry',
+  price: 4.20
+}
+
+Object.freeze(product)
+console.log(Object.isFrozen(product))
+
+console.log(product)
+
+let car = {
+	brand: 'Volks',
+  name: 'Gol'
+}
+
+Object.seal(car)
+console.log(Object.isSealed(car))
+
+console.log(car.hasOwnProperty('brand') ? 'OK' : 'NO')
+console.log(car.hasOwnProperty('brand') ? 'OK' : 'NO')
+
+
+let objA = {
+	name: 'Object A',
+ 	propA: 'Property A'
+}
+
+let objB = {
+	name: 'Object B',
+  propB : 'Property B'
+}
+
+let objC = Object.create({})
+
+
+let objAll = Object.assign(objC, objA, objB)
+
+console.log(objAll)
+
+function MeuObjeto(param1, param2) { 
+	this.param1 = param1
+  this.param2 = param2
+}
+console.log(MeuObjeto.prototype)
+
+const obj1 = new MeuObjeto('1231', '3123')
+const obj2 = new MeuObjeto('9318', '9821')
+
+console.log(obj1.__proto__ === obj2.__proto__)
+console.log(obj1.__proto__ === MeuObjeto.prototype)
+console.log(obj2.__proto__ === MeuObjeto.prototype)
+
+MeuObjeto.prototype.saudacao = () => {
+  console.log('saudacao')
+}
+
+console.log(MeuObjeto.__proto__ === Function.prototype)
+
+obj1.saudacao()
+
+const obj3 = Object.create(null)
+obj3.param1 = 'param1'
+obj3.param2 = 'param2'
+console.log(obj3)
+obj3.__proto__ = MeuObjeto.prototype 
+
+console.log(obj3.param1, obj3.param2)
+
+/* console.log(obj1, obj2)
+
+MeuObjeto.prototype.saudacao = () => {
+  console.log('saudacao')
+}
+
+console.log(MeuObjeto.prototype)
+
+obj1.saudacao()
+obj2.saudacao()
+
+const obj3 = new MeuObjeto('7232', '6252')
+console.log(obj3)
+
+const obj4 = Object.create(new MeuObjeto('5121', '8721'))
+console.log(obj4)
+obj4.__proto__) */
+
+
+
+/* MeuObjeto.prototype.nome = 'Anônimo'
+MeuObjeto.prototype.falar = function () {
+    console.log(`Bom dia! Meu nome é ${this.nome}`)
+}
+
+obj1.falar()
+obj2.nome = 'Rafael'
+obj2.falar()
+ */
+
+
+
+
+
+
+
+
+/* let objAll = Object.assing(objC, objA, objB)
+
+console.log(objAll)
+ */
+
+
+Object.create() define o protótipo para aquela instância de objeto particular. prototypeé uma propriedade em uma função construtora que é o objeto atribuído automaticamente como o [[Prototype]] para cada instância criada usando o newoperador com essa função construtora.
+
+__proto__é uma forma não padronizada de acessar o [[Prototype]] para uma instância particular. Você também pode chamar Object.getPrototypeOf (this) para obter uma maneira padrão de acessar o protótipo.
+
+
+
+
+
+A sintaxe de espalhamento é usada para descompactar iteráveis como matrizes, objetos e chamadas de função. A sintaxe do parâmetro rest criará uma matriz a partir de um número indefinido de valores
+

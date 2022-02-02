@@ -1,0 +1,21 @@
+{
+  "name": "laravel-mix",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Lucas Alves",
+  "license": "MIT",
+  "scripts": {
+    "development": "mix",
+    "watch": "mix watch",
+    "production": "mix --production"
+  },
+  "devDependencies": {
+    "laravel-mix": "^6.0.39",
+    "sass": "^1.43.4",
+    "sass-loader": "^12.3.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.2.0"
+  }
+}

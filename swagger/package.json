@@ -1,0 +1,16 @@
+{
+  "name": "swagger",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon --experimental-specifier-resolution=node server "
+  },
+  "author": "Lucas Alves",
+  "dependencies": {
+    "express": "^4.17.1",
+    "swagger-ui-express": "^4.1.6",
+    "swagger2": "^3.0.0"
+  }
+}

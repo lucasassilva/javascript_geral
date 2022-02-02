@@ -1,0 +1,1 @@
+{"version":3,"file":"css/bundle.css","mappings":"AAEA,KACE,oBAHW","sources":["webpack://teste/./src/assets/sass/_styles.scss"],"sourcesContent":["$body-color: red;\r\n\r\nbody {\r\n  background-color: $body-color;\r\n}"],"names":[],"sourceRoot":""}

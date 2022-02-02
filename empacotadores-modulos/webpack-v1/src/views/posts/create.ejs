@@ -1,0 +1,25 @@
+<%- include("../partials/header") %>
+<body></body>
+    <%- include("../partials/navbar") %>
+    <br>
+    <div class="container">
+        <form action="/cadastrar_post" method="post">
+            <input class="form-control mb-2" 
+            type="text" 
+            name="titulo" 
+            id="titulo" 
+            placeholder="Digite o titulo..."
+            autocomplete="off">
+
+            <input class="form-control mb-3"
+             type="text" 
+             name="descricao" 
+             id="descricao" 
+             placeholder="Digite a descrição..."
+             autocomplete="off">
+
+            <button type="submit" class="btn btn-secondary w-100">Cadastrar</button>
+        </form>
+    </div> 
+</body>
+

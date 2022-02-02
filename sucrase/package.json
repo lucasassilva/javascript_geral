@@ -1,0 +1,22 @@
+{
+  "name": "sucrase",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Lucas Alves",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/server.js",
+    "build": "sucrase ./src -d ./dist --transforms imports && cpx ./src/views/*.ejs ./dist/views",
+    "start": "node dist/server.js"
+  },
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "cpx": "^1.5.0",
+    "nodemon": "^2.0.15",
+    "sucrase": "^3.20.3"
+  }
+}

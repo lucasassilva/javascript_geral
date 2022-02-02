@@ -1,0 +1,25 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "Livraria API",
+        "description": "API de manipulação de livros",
+        "termsOfService": "http://localhost:3000/terms",
+        "contact": {
+            "email": "web.m.lucasalves@outlook.com"
+        },
+        "version": "1.0.0"
+    },
+    "servers": [
+        {
+            "url": "http://localhost:3001/v1",
+            "description": "API de test"
+        }
+    ],
+    "paths": {
+        "/v1/books": {
+            "get": {
+                "summary": "Exibição de todas os livros"
+            }
+        }
+    }
+}
